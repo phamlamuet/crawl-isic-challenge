@@ -173,7 +173,7 @@ splits_info = {
         'images_pattern': os.path.join(raw_dir, '*ISIC2018_Task3_Validation_Input*'),
     },
     'test': {
-        'gt_pattern': os.path.join(raw_dir, 'ISBI2016_ISIC_Part3B_Test_GroundTruth.csv'),
+        'gt_pattern': os.path.join(raw_dir, '**', 'ISIC2018_Task3_Test_GroundTruth.csv'),
         'images_pattern': os.path.join(raw_dir, '*ISIC2018_Task3_Test_Input*'),
     }
 }

@@ -7,6 +7,8 @@ dataset of isic challenge
 
 currently done:
 2016 3 3B
+2017 3
+
 
 
 
