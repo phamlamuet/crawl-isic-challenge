@@ -2,8 +2,7 @@ import os
 import shutil
 import pandas as pd
 
-# Create destination directories
-os.makedirs('melanoma_dataset/train/benign', exist_ok=True)
+# Create destination directoriesos.makedirs('melanoma_dataset/train/benign', exist_ok=True)
 os.makedirs('melanoma_dataset/train/malignant', exist_ok=True)
 os.makedirs('melanoma_dataset/test/benign', exist_ok=True)
 os.makedirs('melanoma_dataset/test/malignant', exist_ok=True)
